@@ -5,19 +5,19 @@ Incremental git backup tool. Collects repositories from GitHub profiles (via PyG
 ## Installation
 
 ```bash
-pip install git+https://github.com/lunarlimbo/gitbacklist.git
+pip install git+https://github.com/lunardoesdev/gitbacklist.git
 ```
 
 Or with [uv](https://docs.astral.sh/uv/):
 
 ```bash
-uv pip install git+https://github.com/lunarlimbo/gitbacklist.git
+uv pip install git+https://github.com/lunardoesdev/gitbacklist.git
 ```
 
 Or with [PDM](https://pdm-project.org/):
 
 ```bash
-pdm add git+https://github.com/lunarlimbo/gitbacklist.git
+pdm add git+https://github.com/lunardoesdev/gitbacklist.git
 ```
 
 ## Usage
@@ -84,7 +84,7 @@ You can use gitbacklist as a self-contained script without installing anything b
 #!/usr/bin/env -S uv run --script
 # /// script
 # requires-python = ">=3.9"
-# dependencies = ["gitbacklist @ git+https://github.com/lunarlimbo/gitbacklist.git"]
+# dependencies = ["gitbacklist @ git+https://github.com/lunardoesdev/gitbacklist.git"]
 # ///
 
 from gitbacklist import Backlist
